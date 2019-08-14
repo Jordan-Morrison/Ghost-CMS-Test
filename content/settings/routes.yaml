@@ -2,7 +2,13 @@ routes:
 
 collections:
   /:
-    permalink: /{slug}/
+    permalink: /en/{slug}/
+    filter: tag:english
+    template: index
+
+  /fr/:
+    permalink: /fr/{slug}/
+    filter: tag:francais
     template: index
 
 taxonomies:
