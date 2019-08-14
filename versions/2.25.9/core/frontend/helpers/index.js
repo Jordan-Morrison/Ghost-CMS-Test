@@ -37,6 +37,7 @@ coreHelpers.title = require('./title');
 coreHelpers.twitter_url = require('./twitter_url');
 coreHelpers.url = require('./url');
 coreHelpers.createNavItem = require('./createNavItem');
+coreHelpers.pageTitle = require('./pageTitle');
 
 registerAllCoreHelpers = function registerAllCoreHelpers() {
     // Register theme helpers
@@ -69,6 +70,7 @@ registerAllCoreHelpers = function registerAllCoreHelpers() {
     registerThemeHelper('facebook_url', coreHelpers.facebook_url);
     registerThemeHelper('url', coreHelpers.url);
     registerThemeHelper('createNavItem', coreHelpers.createNavItem);
+    registerThemeHelper('pageTitle', coreHelpers.pageTitle);
 
     // Async theme helpers
     registerAsyncThemeHelper('ghost_head', coreHelpers.ghost_head);
