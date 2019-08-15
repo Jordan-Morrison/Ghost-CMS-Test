@@ -38,6 +38,7 @@ coreHelpers.twitter_url = require('./twitter_url');
 coreHelpers.url = require('./url');
 coreHelpers.createNavItem = require('./createNavItem');
 coreHelpers.pageTitle = require('./pageTitle');
+coreHelpers.setLogo = require('./setLogo');
 
 registerAllCoreHelpers = function registerAllCoreHelpers() {
     // Register theme helpers
@@ -71,6 +72,7 @@ registerAllCoreHelpers = function registerAllCoreHelpers() {
     registerThemeHelper('url', coreHelpers.url);
     registerThemeHelper('createNavItem', coreHelpers.createNavItem);
     registerThemeHelper('pageTitle', coreHelpers.pageTitle);
+    registerThemeHelper('setLogo', coreHelpers.setLogo);
 
     // Async theme helpers
     registerAsyncThemeHelper('ghost_head', coreHelpers.ghost_head);
