@@ -406,6 +406,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
 .splash-screen-window {
     background-color: white;
     padding: 50px;
+    font-weight: bold;
     max-width: 500px;
     margin: 0 auto;
     border-radius: 6px;
